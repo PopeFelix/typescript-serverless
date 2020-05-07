@@ -17,13 +17,18 @@
     "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
     "import/prefer-default-export": "off",
     "max-len": ["error", {
-      "code":  150,
+      "code":  120,
       "ignoreComments":  true,
       "ignoreTrailingComments":  true,
       "ignoreUrls": true,
       "ignoreStrings": true,
       "ignoreTemplateLiterals": true
-    }]
+    }],
+    "comma-dangle": "off",
+    "semi":"off",
+    "arrow-body-style":"off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_"}],
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_"}]
   },
   "parser": "@typescript-eslint/parser",
   "env": {},
